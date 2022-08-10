@@ -11,7 +11,7 @@ rendering of the `content-visibility` subtree. For example, the developer may wa
 to deprioritize React updates in a subtree that is not rendered by the user-agent.
 Similarly, the developer may want to stop other script updates (e.g. canvas
 updates) when the user-agent is not rendering the element. It is important to
-note that since `content-visibility: auto` subtree elements remain symantically
+note that since `content-visibility: auto` subtree elements remain semantically
 relevant, updates in such subtrees should still continue to happen, but are
 allowed to happen at a reduced priority. This ensures that features such as
 find-in-page and assistive technologies get access to a reasonably updated
